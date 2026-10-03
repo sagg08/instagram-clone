@@ -1,0 +1,24 @@
+# Dependencias y builds
+node_modules/
+dist/
+build/
+.expo/
+web-build/
+coverage/
+
+# Secretos: NUNCA al repositorio
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.mobileprovision
+
+# Logs y sistema
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
